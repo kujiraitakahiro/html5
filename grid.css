@@ -5,21 +5,21 @@
 }
 .header {
   background-color: green; /* headerの背景色 */
-  grid-column: 1 / 3; /* 行番号1から3を使う */
-  grid-row: 1 / 2; /* 列番号1から2を使う */
+  grid-column: 1 / 3; /* 列番号1から3を使う */
+  grid-row: 1 / 2; /* 行番号1から2を使う */
 }
 .nav{
   background-color: gold; /* navの背景色 */
-  grid-column: 1 / 2; /* 行番号1から2を使う */
-  grid-row: 2 / 3; /* 列番号2から3を使う */
+  grid-column: 1 / 2; /* 列番号1から2を使う */
+  grid-row: 2 / 3; /* 行番号2から3を使う */
 }
 .main {
   background-color: orange; /* mainの背景色 */
-  grid-column: 2 / 3; /* 行番号2から3を使う */
-  grid-row: 2 / 3; /* 列番号2から3を使う */
+  grid-column: 2 / 3; /* 列番号2から3を使う */
+  grid-row: 2 / 3; /* 行番号2から3を使う */
 }
 .footer {
   background-color: blue; /* footerの背景色 */
-  grid-column: 1 / 3; /* 行番号1から3を使う */
-  grid-row: 3 / 4; /* 列番号3から4を使う */
+  grid-column: 1 / 3; /* 列番号1から3を使う */
+  grid-row: 3 / 4; /* 行番号3から4を使う */
 }
