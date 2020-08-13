@@ -1,0 +1,25 @@
+.container {
+  display: grid; /* グリッドレイアウトを使うという宣言 */
+  grid-template-columns: 100px 1fr; /* 1列目の幅 残り全ての幅 */
+  grid-template-rows: 100px 200px 100px; /* 1行目の高さ 2行目の高さ 3行目の高さ */
+}
+.header {
+  background-color: green; /* headerの背景色 */
+  grid-column: 1 / 3; /* 行番号1から3を使う */
+  grid-row: 1 / 2; /* 列番号1から2を使う */
+}
+.nav{
+  background-color: gold; /* navの背景色 */
+  grid-column: 1 / 2; /* 行番号1から2を使う */
+  grid-row: 2 / 3; /* 列番号2から3を使う */
+}
+.main {
+  background-color: orange; /* mainの背景色 */
+  grid-column: 2 / 3; /* 行番号2から3を使う */
+  grid-row: 2 / 3; /* 列番号2から3を使う */
+}
+.footer {
+  background-color: blue; /* footerの背景色 */
+  grid-column: 1 / 3; /* 行番号1から3を使う */
+  grid-row: 3 / 4; /* 列番号3から4を使う */
+}
