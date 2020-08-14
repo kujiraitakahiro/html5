@@ -3,11 +3,6 @@
   grid-template-columns: 100px 1fr; /* 1列目の幅 残り全ての幅 */
   grid-template-rows: 100px 200px 100px; /* 1行目の高さ 2行目の高さ 3行目の高さ */
 }
-.header {
-  background-color: green; /* headerの背景色 */
-  grid-column: 1 / 3; /* 行番号1から3を使う */
-  grid-row: 1 / 2; /* 列番号1から2を使う */
-}
 .nav{
   background-color: gold; /* navの背景色 */
   grid-column: 1 / 2; /* 行番号1から2を使う */
@@ -22,4 +17,25 @@
   background-color: blue; /* footerの背景色 */
   grid-column: 1 / 3; /* 行番号1から3を使う */
   grid-row: 3 / 4; /* 列番号3から4を使う */
+}
+@media screen and (max-width: 480px) {
+  .header {
+    background-color: lightgreen; /* headerの背景色 */
+    grid-column: 1 / 3; /* 行番号1から3を使う */
+    grid-row: 1 / 2; /* 列番号1から2を使う */
+    }
+}
+@media screen and (min-width: 480px) and (max-width: 960px) {
+  .header {
+    background-color: lightyellow; /* headerの背景色 */
+    grid-column: 1 / 3; /* 行番号1から3を使う */
+    grid-row: 1 / 2; /* 列番号1から2を使う */
+    }
+}
+@media screen and (min-width: 960px) {
+  .header {
+    background-color: magenta; /* headerの背景色 */
+    grid-column: 1 / 3; /* 行番号1から3を使う */
+    grid-row: 1 / 2; /* 列番号1から2を使う */
+    }
 }
